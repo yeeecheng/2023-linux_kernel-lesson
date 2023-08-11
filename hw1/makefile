@@ -3,7 +3,7 @@ CC = g++
 # -I ./lib/include 將此目錄加入搜尋路徑中
 CFLAGS = -Wall -std=c++11 -I./lib/include
 # 需要編譯的.cpp檔 
-SOURCES = main.c
+SOURCES = 1-2.c
 # 將SOURCES中的lib/src/%.cpp 改成 build/%.o
 OBJECTS = $(SOURCES:lib/src/%.cpp=build/%.o)
 # 生成執行檔名稱
